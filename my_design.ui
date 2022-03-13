@@ -44,7 +44,7 @@
     <normaloff>../종합/다운로드.png</normaloff>../종합/다운로드.png</iconset>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(161, 199, 224);
+   <string notr="true">background-color: pink;
 QAbstractScrollArea.background:white;</string>
   </property>
   <property name="dockNestingEnabled">
@@ -54,7 +54,7 @@ QAbstractScrollArea.background:white;</string>
    <widget class="QPushButton" name="BT_Change">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>630</x>
       <y>150</y>
       <width>161</width>
       <height>41</height>
@@ -63,7 +63,7 @@ QAbstractScrollArea.background:white;</string>
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>10</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
@@ -76,10 +76,10 @@ QAbstractScrollArea.background:white;</string>
      <enum>Qt::NoFocus</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0);
- border: 2px solid white; 
-color: black;
-border-radius: 10px;</string>
+     <string notr="true">color: #dc3545;
+border-color: #dc3545;
+background-color: whitesmoke;
+border-radius: 20px;</string>
     </property>
     <property name="text">
      <string>Change</string>
@@ -90,22 +90,21 @@ border-radius: 10px;</string>
      <rect>
       <x>120</x>
       <y>10</y>
-      <width>131</width>
+      <width>161</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>10</pointsize>
+      <pointsize>11</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0);
- border: 2px solid white; 
-color: black;
+     <string notr="true">border: 2px solid white; 
+color: #5B2386;
 border-radius: 10px;</string>
     </property>
     <property name="text">
@@ -118,16 +117,16 @@ border-radius: 10px;</string>
    <widget class="QPushButton" name="BT_Create">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>70</y>
+      <x>460</x>
+      <y>150</y>
       <width>161</width>
-      <height>71</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>10</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <italic>false</italic>
       <bold>true</bold>
@@ -140,10 +139,10 @@ border-radius: 10px;</string>
      <enum>Qt::NoFocus</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0);
- border: 2px solid white; 
-color: black;
-border-radius: 10px;</string>
+     <string notr="true">color: #dc3545;
+border-color: #dc3545;
+background-color: whitesmoke;
+border-radius: 20px;</string>
     </property>
     <property name="text">
      <string>Create_Guid</string>
@@ -152,24 +151,23 @@ border-radius: 10px;</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>290</x>
       <y>10</y>
-      <width>351</width>
+      <width>491</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>10</pointsize>
+      <pointsize>11</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0);
- border: 2px solid white; 
-color: black;
+     <string notr="true">border: 2px solid white; 
+color: #5B2386;
 border-radius: 10px;</string>
     </property>
     <property name="text">
@@ -185,21 +183,20 @@ border-radius: 10px;</string>
       <x>10</x>
       <y>10</y>
       <width>101</width>
-      <height>131</height>
+      <height>121</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>10</pointsize>
+      <pointsize>11</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0);
- border: 2px solid white; 
-color: black;
+     <string notr="true">border: 2px solid white; 
+color: #5B2386;
 border-radius: 10px;</string>
     </property>
     <property name="text">
@@ -213,23 +210,22 @@ border-radius: 10px;</string>
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>70</y>
-      <width>131</width>
-      <height>71</height>
+      <y>80</y>
+      <width>161</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>10</pointsize>
+      <pointsize>11</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0);
- border: 2px solid white; 
-color: black;
+     <string notr="true">border: 2px solid white; 
+color: #5B2386;
 border-radius: 10px;</string>
     </property>
     <property name="text">
@@ -243,24 +239,23 @@ border-radius: 10px;</string>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>70</y>
-      <width>351</width>
-      <height>71</height>
+      <x>290</x>
+      <y>80</y>
+      <width>491</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Consolas</family>
-      <pointsize>10</pointsize>
+      <pointsize>11</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0);
- border: 2px solid white; 
-color: black;
+     <string notr="true">border: 2px solid white; 
+color: #5B2386;
 border-radius: 10px;</string>
     </property>
     <property name="text">
