@@ -26,8 +26,8 @@ class My_Window(QMainWindow, form_class): #design.Ui_mainWindow
         #     print(item)
         
         #test
-        self.test = self.get_connected_adapters_mac_address()
-        print(self.test)
+        #self.test = self.get_connected_adapters_mac_address()
+        #print(self.test)
         
         #Hwid display
         self.show_HWID()
@@ -67,8 +67,13 @@ class My_Window(QMainWindow, form_class): #design.Ui_mainWindow
             QMessageBox.about(self,"","Success")
             
     def get_random_macaddress_Clicked(self):
-        print("test")
+        self.url = "https://miniwebtool.com/mac-address-generator/"
+        self.response = requests.get(self.url)
+        self.html = self.response.text
+        self.soup = BeautifulSoup(self.html, 'html.parser')
+        self.hw_list = self.soup.select_one('#re1 > div.print > div.r1')
         
+        print(self.hw_list)
     def get_connected_adapters_mac_address(self):
         # make a list to collect connected adapter's MAC addresses along with the transport name
         self.connected_adapters_mac = []
