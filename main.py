@@ -108,7 +108,9 @@ class My_Window(QMainWindow, form_class): #design.Ui_mainWindow
     
     def disable_adapter(self,adapter_index):
         # use wmic command to disable our adapter so the MAC address change is reflected
+        print(adapter_index)
         disable_output = subprocess.check_output(f"wmic path win32_networkadapter where index={adapter_index} call disable").decode(encoding='CP949')
+        
         return disable_output
 
     def enable_adapter(self,adapter_index):
