@@ -23,7 +23,12 @@ class My_Window(QMainWindow, form_class): #design.Ui_mainWindow
         
         #Hwid display
         self.show_HWID()
-        self.label_9.setText(self.my_mac[0][0])
+        for x in range(len(self.my_mac)):
+            self.text = self.label_9.text()
+            if x == len(self.my_mac)-1:
+                self.label_9.setText(self.label_9.text() + self.my_mac[x][0])
+            else:
+                self.label_9.setText(self.label_9.text() + '\n' + self.my_mac[x][0])
         
         #button 리스너
         self.BT_Create.clicked.connect(self.Create_GUID_Clicked)
@@ -116,6 +121,7 @@ class My_Window(QMainWindow, form_class): #design.Ui_mainWindow
     def enable_adapter(self,adapter_index):
         # use wmic command to enable our adapter so the MAC address change is reflected
         enable_output = subprocess.check_output(f"wmic path win32_networkadapter where index={adapter_index} call enable").decode(encoding='CP949')
+        
         return enable_output
     
     def change_mac_address_clicked(self):
