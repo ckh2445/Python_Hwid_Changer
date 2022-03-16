@@ -416,7 +416,7 @@ border-radius: 10px;</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="BT_Create_Mac_2">
+   <widget class="QPushButton" name="BT_Canage_Mac">
     <property name="geometry">
      <rect>
       <x>630</x>

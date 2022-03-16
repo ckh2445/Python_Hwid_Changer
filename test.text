@@ -1,0 +1,431 @@
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0000
+    DriverDesc    REG_SZ    Microsoft Kernel Debug Network Adapter
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    kdnic.inf
+    InfSection    REG_SZ    KdNic.ndi
+    MatchingDeviceId    REG_SZ    root\kdnic
+    BusNumber    REG_SZ    0
+    NoDisplayClass    REG_SZ    1
+    *IfType    REG_DWORD    0x6
+    *MediaType    REG_DWORD    0x0
+    *PhysicalMediaType    REG_DWORD    0xe
+    Characteristics    REG_DWORD    0x9
+    IfTypePreStart    REG_DWORD    0x6
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d785ccd3c71b06
+    InstallTimeStamp    REG_BINARY    E4070B00030012000E002F0013001D00
+    DeviceInstanceID    REG_SZ    ROOT\KDNIC\0000
+    ComponentId    REG_SZ    root\kdnic
+    NetCfgInstanceId    REG_SZ    {23A07F90-E00B-433A-837D-5C156A37AC31}
+    NetLuidIndex    REG_DWORD    0x8000
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0000\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0000\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001
+    DriverDesc    REG_SZ    WAN Miniport (SSTP)
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    netsstpa.inf
+    InfSection    REG_SZ    Ndi-Mp-Sstp
+    MatchingDeviceId    REG_SZ    ms_sstpminiport
+    MinWanEndpoints    REG_DWORD    0x0
+    MaxWanEndpoints    REG_DWORD    0x3
+    WanEndpoints    REG_DWORD    0x2
+    *IfType    REG_DWORD    0x83
+    *MediaType    REG_DWORD    0xc
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x29
+    IfTypePreStart    REG_DWORD    0x83
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d785cd2f808676
+    InstallTimeStamp    REG_BINARY    E507070006001F0005001E002200F600
+    DeviceInstanceID    REG_SZ    SWD\MSRRAS\MS_SSTPMINIPORT
+    ComponentId    REG_SZ    ms_sstpminiport
+    NetCfgInstanceId    REG_SZ    {1B2F7B91-7845-4675-9259-1D1E8634ABCB}
+    NetLuidIndex    REG_DWORD    0x8000
+    EnableForRas    REG_DWORD    0x0
+    EnableForRouting    REG_DWORD    0x0
+    EnableForOutboundRouting    REG_DWORD    0x0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0001\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002
+    DriverDesc    REG_SZ    WAN Miniport (IKEv2)
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    netavpna.inf
+    InfSection    REG_SZ    Ndi-Mp-AgileVpn
+    MatchingDeviceId    REG_SZ    ms_agilevpnminiport
+    MinWanEndpoints    REG_DWORD    0x0
+    MaxWanEndpoints    REG_DWORD    0x3
+    WanEndpoints    REG_DWORD    0x2
+    *IfType    REG_DWORD    0x83
+    *MediaType    REG_DWORD    0xc
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x29
+    IfTypePreStart    REG_DWORD    0x83
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d785cd3016b29d
+    InstallTimeStamp    REG_BINARY    E507070006001F0005001E002300F500
+    DeviceInstanceID    REG_SZ    SWD\MSRRAS\MS_AGILEVPNMINIPORT
+    ComponentId    REG_SZ    ms_agilevpnminiport
+    NetCfgInstanceId    REG_SZ    {FE28A87E-8BA4-40AB-A28B-29A5B6D1BCF4}
+    NetLuidIndex    REG_DWORD    0x8001
+    EnableForRas    REG_DWORD    0x0
+    EnableForRouting    REG_DWORD    0x0
+    EnableForOutboundRouting    REG_DWORD    0x0
+    NetworkAddress    REG_SZ    02CD5776EB1B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0002\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0003
+    DriverDesc    REG_SZ    WAN Miniport (L2TP)
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    netrasa.inf
+    InfSection    REG_SZ    Ndi-Mp-L2tp
+    MatchingDeviceId    REG_SZ    ms_l2tpminiport
+    MinWanEndpoints    REG_DWORD    0x0
+    MaxWanEndpoints    REG_DWORD    0x3
+    WanEndpoints    REG_DWORD    0x2
+    *IfType    REG_DWORD    0x83
+    *MediaType    REG_DWORD    0xc
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x29
+    IfTypePreStart    REG_DWORD    0x83
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d785cd301b7608
+    InstallTimeStamp    REG_BINARY    E507070006001F0005001E0023000501
+    DeviceInstanceID    REG_SZ    SWD\MSRRAS\MS_L2TPMINIPORT
+    ComponentId    REG_SZ    ms_l2tpminiport
+    NetCfgInstanceId    REG_SZ    {A2BC02EA-5F80-403D-AF69-FBD12B09679F}
+    NetLuidIndex    REG_DWORD    0x8002
+    EnableForRas    REG_DWORD    0x0
+    EnableForRouting    REG_DWORD    0x0
+    EnableForOutboundRouting    REG_DWORD    0x0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0003\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0003\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0004
+    DriverDesc    REG_SZ    WAN Miniport (PPTP)
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    netrasa.inf
+    InfSection    REG_SZ    Ndi-Mp-Pptp
+    MatchingDeviceId    REG_SZ    ms_pptpminiport
+    MinWanEndpoints    REG_DWORD    0x0
+    MaxWanEndpoints    REG_DWORD    0x3
+    TapiLineName    REG_SZ    RAS VPN Line
+    InactivityIdleSeconds    REG_SZ    60
+    TcpPortNumber    REG_DWORD    0x6bb
+    TcpDisconnectTimeout    REG_DWORD    0x1e
+    TcpConnectTimeout    REG_DWORD    0x1e
+    ClientIpAddresses    REG_MULTI_SZ
+    ClientIpMasks    REG_MULTI_SZ
+    AuthenticateIncomingCalls    REG_DWORD    0x0
+    WanEndpoints    REG_DWORD    0x2
+    *IfType    REG_DWORD    0x83
+    *MediaType    REG_DWORD    0xc
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x29
+    IfTypePreStart    REG_DWORD    0x83
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d785cd30203a77
+    InstallTimeStamp    REG_BINARY    E507070006001F0005001E0023002401
+    DeviceInstanceID    REG_SZ    SWD\MSRRAS\MS_PPTPMINIPORT
+    ComponentId    REG_SZ    ms_pptpminiport
+    NetCfgInstanceId    REG_SZ    {D83BEE0C-B18C-4DD3-A579-A78435894D0D}
+    NetLuidIndex    REG_DWORD    0x8003
+    EnableForRas    REG_DWORD    0x0
+    EnableForRouting    REG_DWORD    0x0
+    EnableForOutboundRouting    REG_DWORD    0x0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0004\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0004\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0005
+    DriverDesc    REG_SZ    WAN Miniport (PPPOE)
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    netrasa.inf
+    InfSection    REG_SZ    Ndi-Mp-Pppoe
+    MatchingDeviceId    REG_SZ    ms_pppoeminiport
+    MinWanEndpoints    REG_DWORD    0x0
+    MaxWanEndpoints    REG_DWORD    0x64
+    TapiLineName    REG_SZ    RAS PPPOE Line
+    WanEndpoints    REG_DWORD    0x1
+    *IfType    REG_DWORD    0x17
+    *MediaType    REG_DWORD    0xc
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x29
+    IfTypePreStart    REG_DWORD    0x17
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d785cd3024fed1
+    InstallTimeStamp    REG_BINARY    E507070006001F0005001E0023004301
+    DeviceInstanceID    REG_SZ    SWD\MSRRAS\MS_PPPOEMINIPORT
+    ComponentId    REG_SZ    ms_pppoeminiport
+    NetCfgInstanceId    REG_SZ    {538B1E2B-D9DB-48EF-9D89-B4037C29732D}
+    NetLuidIndex    REG_DWORD    0x8000
+    EnableForRas    REG_DWORD    0x0
+    EnableForRouting    REG_DWORD    0x0
+    EnableForOutboundRouting    REG_DWORD    0x0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0005\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0005\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0006
+    DriverDesc    REG_SZ    WAN Miniport (IP)
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    netrasa.inf
+    InfSection    REG_SZ    Ndi-Mp-Ip
+    MatchingDeviceId    REG_SZ    ms_ndiswanip
+    *IfType    REG_DWORD    0x6
+    *MediaType    REG_DWORD    0x0
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x29
+    IfTypePreStart    REG_DWORD    0x6
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d785cd3029c33c
+    InstallTimeStamp    REG_BINARY    E507070006001F0005001E0023006301
+    DeviceInstanceID    REG_SZ    SWD\MSRRAS\MS_NDISWANIP
+    ComponentId    REG_SZ    ms_ndiswanip
+    NetCfgInstanceId    REG_SZ    {B34B14FB-0397-4241-8900-233B1D8B04B7}
+    NetLuidIndex    REG_DWORD    0x8001
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0006\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0006\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0007
+    DriverDesc    REG_SZ    WAN Miniport (IPv6)
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    netrasa.inf
+    InfSection    REG_SZ    Ndi-Mp-Ipv6
+    MatchingDeviceId    REG_SZ    ms_ndiswanipv6
+    *IfType    REG_DWORD    0x6
+    *MediaType    REG_DWORD    0x0
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x29
+    IfTypePreStart    REG_DWORD    0x6
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d785cd3030e9db
+    InstallTimeStamp    REG_BINARY    E507070006001F0005001E0023009201
+    DeviceInstanceID    REG_SZ    SWD\MSRRAS\MS_NDISWANIPV6
+    ComponentId    REG_SZ    ms_ndiswanipv6
+    NetCfgInstanceId    REG_SZ    {C4800691-7888-4282-833D-084C454D97AC}
+    NetLuidIndex    REG_DWORD    0x8002
+    NetworkAddress    REG_SZ    02CD5776EB1B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0007\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0007\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0008
+    DriverDesc    REG_SZ    WAN Miniport (Network Monitor)
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    netrasa.inf
+    InfSection    REG_SZ    Ndi-Mp-Bh
+    MatchingDeviceId    REG_SZ    ms_ndiswanbh
+    EnumExportPref    REG_DWORD    0x0
+    *IfType    REG_DWORD    0x6
+    *MediaType    REG_DWORD    0x0
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x29
+    IfTypePreStart    REG_DWORD    0x6
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d785cd3035ae41
+    InstallTimeStamp    REG_BINARY    E507070006001F0005001E002300B101
+    DeviceInstanceID    REG_SZ    SWD\MSRRAS\MS_NDISWANBH
+    ComponentId    REG_SZ    ms_ndiswanbh
+    NetCfgInstanceId    REG_SZ    {F0FDD851-CE4F-43D8-8AD9-EED7B7087FA5}
+    NetLuidIndex    REG_DWORD    0x8003
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0008\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0008\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0009
+    DriverDesc    REG_SZ    Intel(R) Ethernet Connection (12) I219-V
+    ProviderName    REG_SZ    Intel
+    DriverDateData    REG_BINARY    00006179F395D601
+    DriverDate    REG_SZ    9-29-2020
+    DriverVersion    REG_SZ    12.19.0.16
+    InfPath    REG_SZ    oem25.inf
+    InfSection    REG_SZ    E0D55.10.0.1.19H1
+    IncludedInfs    REG_MULTI_SZ    pci.inf
+    MatchingDeviceId    REG_SZ    PCI\VEN_8086&DEV_0D55
+    LogLinkStateEvent    REG_SZ    51
+    ITR    REG_SZ    65535
+    PciScanMethod    REG_SZ    3
+    TxIntDelay    REG_SZ    28
+    MulticastFilterType    REG_SZ    0
+    VlanFiltering    REG_SZ    0
+    UniversalInstall    REG_DWORD    0x1
+    EnableMSI    REG_DWORD    0x1
+    AutoPowerSaveModeEnabled    REG_SZ    0
+    ProcessLSCinWorkItem    REG_SZ    1
+    Enable9KJFTpt    REG_SZ    1
+    *LsoV1IPv4    REG_SZ    0
+    LinkNegotiationProcess    REG_SZ    1
+    WakeOnSlot    REG_SZ    0
+    *DeviceSleepOnDisconnect    REG_SZ    0
+    ReceiveScalingMode    REG_SZ    1
+    EnableTss    REG_SZ    0
+    *RSSProfile    REG_SZ    1
+    ForceHostExitUlp    REG_SZ    1
+    CoInstallFlag    REG_DWORD    0x8203101
+    *IfType    REG_DWORD    0x6
+    *MediaType    REG_DWORD    0x0
+    *PhysicalMediaType    REG_DWORD    0xe
+    BusType    REG_SZ    5
+    Characteristics    REG_DWORD    0x84
+    *FlowControl    REG_SZ    3
+    *TransmitBuffers    REG_SZ    512
+    *ReceiveBuffers    REG_SZ    256
+    *TCPChecksumOffloadIPv4    REG_SZ    3
+    *TCPChecksumOffloadIPv6    REG_SZ    3
+    *UDPChecksumOffloadIPv4    REG_SZ    3
+    *UDPChecksumOffloadIPv6    REG_SZ    3
+    *IPChecksumOffloadIPv4    REG_SZ    3
+    WaitAutoNegComplete    REG_SZ    2
+    *InterruptModeration    REG_SZ    1
+    *PriorityVLANTag    REG_SZ    3
+    ReduceSpeedOnPowerDown    REG_SZ    1
+    EnablePME    REG_SZ    1
+    *LsoV2IPv4    REG_SZ    1
+    *LsoV2IPv6    REG_SZ    1
+    *JumboPacket    REG_SZ    1514
+    *SpeedDuplex    REG_SZ    0
+    AdaptiveIFS    REG_SZ    0
+    MasterSlave    REG_SZ    0
+    *WakeOnPattern    REG_SZ    1
+    *WakeOnMagicPacket    REG_SZ    1
+    WakeOnLink    REG_SZ    0
+    SipsEnabled    REG_SZ    0
+    *PMARPOffload    REG_SZ    1
+    *PMNSOffload    REG_SZ    1
+    *NumRssQueues    REG_SZ    2
+    *RSS    REG_SZ    1
+    EEELinkAdvertisement    REG_SZ    1
+    ULPMode    REG_SZ    1
+    *PtpHardwareTimestamp    REG_SZ    0
+    *SoftwareTimestamp    REG_SZ    0
+    IfTypePreStart    REG_DWORD    0x6
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d78d60b54c0f46
+    InstallTimeStamp    REG_BINARY    E507070006001F000500280027002903
+    DeviceInstanceID    REG_SZ    PCI\VEN_8086&DEV_0D55&SUBSYS_86721043&REV_00\3&11583659&0&FE
+    ComponentId    REG_SZ    PCI\VEN_8086&DEV_0D55
+    NetCfgInstanceId    REG_SZ    {D9DD0848-2DF0-4D26-B474-6F4F9313A9F2}
+    NetLuidIndex    REG_DWORD    0x8004
+    IntelANSVlanID    REG_MULTI_SZ
+    *ModernStandbyWoLMagicPacket    REG_SZ    1
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0009\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0009\Ndi
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0009\PROSetNdi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0010
+    DriverDesc    REG_SZ    ExpressVPN TAP Adapter
+    ProviderName    REG_SZ    ExpressVPN
+    DriverDateData    REG_BINARY    008066A7E7FED401
+    DriverDate    REG_SZ    4-30-2019
+    DriverVersion    REG_SZ    9.24.2.45
+    InfPath    REG_SZ    oem4.inf
+    InfSection    REG_SZ    tapexpressvpn.ndi
+    MatchingDeviceId    REG_SZ    tapexpressvpn
+    Manufacturer    REG_SZ    ExpressVPN
+    ProductName    REG_SZ    ExpressVPN TAP Adapter
+    *IfType    REG_DWORD    0x6
+    *MediaType    REG_DWORD    0x0
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x81
+    MTU    REG_SZ    1500
+    MediaStatus    REG_SZ    0
+    AllowNonAdmin    REG_SZ    1
+    IfTypePreStart    REG_DWORD    0x6
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d8350ce8548af0
+    InstallTimeStamp    REG_BINARY    E607030005000B000500390024008500
+    DeviceInstanceID    REG_SZ    ROOT\NET\0000
+    ComponentId    REG_SZ    tapexpressvpn
+    NetCfgInstanceId    REG_SZ    {CEEA691B-559E-4E12-9F6E-7DC8A95BEF70}
+    NetLuidIndex    REG_DWORD    0x8005
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0010\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0010\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011
+    DriverDesc    REG_SZ    Bluetooth Device (Personal Area Network)
+    ProviderName    REG_SZ    Microsoft
+    DriverDateData    REG_BINARY    00808CA3C594C601
+    DriverDate    REG_SZ    6-21-2006
+    DriverVersion    REG_SZ    10.0.19041.1
+    InfPath    REG_SZ    bthpan.inf
+    InfSection    REG_SZ    BthPan.Install
+    MatchingDeviceId    REG_SZ    BTH\MS_BTHPAN
+    ServiceId    REG_DWORD    0x3
+    ServiceLangT    REG_SZ    en
+    ServiceName    REG_SZ    Personal Ad Hoc User Service
+    ServiceDesc    REG_SZ    Personal Ad Hoc User Service
+    *IfType    REG_DWORD    0x6
+    *MediaType    REG_DWORD    0x0
+    *PhysicalMediaType    REG_DWORD    0xa
+    Characteristics    REG_DWORD    0x1
+    IfTypePreStart    REG_DWORD    0x6
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d7fa31bf3c4fb9
+    InstallTimeStamp    REG_BINARY    E5070C0000001A00080016002700CA03
+    DeviceInstanceID    REG_SZ    BTH\MS_BTHPAN\6&155ac7c&0&2
+    ComponentId    REG_SZ    BTH\MS_BTHPAN
+    NetCfgInstanceId    REG_SZ    {369D3E3C-FDC8-4227-B128-110027D2525F}
+    NetLuidIndex    REG_DWORD    0x8006
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011\Linkage
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0011\Ndi
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}\0012
+    DriverDesc    REG_SZ    ExpressVPN TUN Driver
+    ProviderName    REG_SZ    ExpressVPN
+    DriverDateData    REG_BINARY    0000BEC7FBB3D701
+    DriverDate    REG_SZ    9-28-2021
+    DriverVersion    REG_SZ    0.8.0.0
+    InfPath    REG_SZ    oem5.inf
+    InfSection    REG_SZ    Expressvpntun.Install
+    MatchingDeviceId    REG_SZ    expressvpntun
+    DeviceVxDs    REG_SZ    expressvpn-tun.sys
+    *IfType    REG_DWORD    0x35
+    *MediaType    REG_DWORD    0x13
+    *PhysicalMediaType    REG_DWORD    0x0
+    Characteristics    REG_DWORD    0x1
+    EnableDhcp    REG_DWORD    0x0
+    IfTypePreStart    REG_DWORD    0x35
+    NetworkInterfaceInstallTimestamp    REG_QWORD    0x1d8350ce8aac134
+    InstallTimeStamp    REG_BINARY    E607030005000B00050039002400BC02
+    DeviceInstanceID    REG_SZ    ROOT\NET\0001
+    ComponentId    REG_SZ    expressvpntun
+    NetCfgInstanceId    REG_SZ    {2CFB025B-CA19-4914-841A-AFD41E3375C2}
+    NetLuidIndex    REG_DWORD    0x8000
