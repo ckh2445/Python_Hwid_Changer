@@ -6,7 +6,6 @@ import requests
 from bs4 import BeautifulSoup
 import subprocess
 import regex as re
-import parser
 
 form_class = uic.loadUiType("my_design.ui")[0]
 
